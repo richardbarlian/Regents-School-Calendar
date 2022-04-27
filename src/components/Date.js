@@ -1,7 +1,15 @@
 import { day } from "../constants";
 
-function Date() {
-  return <div className="date">👋 Today is {day}</div>;
+function Date({ date }) {
+  return date !== day ? (
+    <div className="date">
+      👋 Viewing {date}, Today is {day}
+    </div>
+  ) : (
+    <div className="date">
+      👋 Viewing today
+    </div>
+  );
 }
 
 export default Date;

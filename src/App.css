@@ -16,7 +16,7 @@ h1 {
   text-align: center;
   list-style-type: none;
   background-color: #90afc5;
-  height: calc(100vh - 15em);
+  height: calc(100vh - 18em);
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
@@ -44,6 +44,7 @@ h1 {
 }
 
 .date,
+.selector,
 .quote {
   background-color: #666666;
   height: 50px;
@@ -61,7 +62,9 @@ h1 {
   transition: 500ms ease-in-out;
 }
 
-.date:hover, .quote:hover {
+.date:hover,
+.selector:hover,
+.quote:hover {
   transform: scale(1.02);
 }
 
@@ -73,4 +76,11 @@ h1 {
 .no_subjects {
   font-weight: bold;
   font-size: 1em;
+}
+
+.selector button {
+  border-radius: 0.2em;
+  margin-left: 4px;
+  transform: translateY(1px);
+  background-color: #90afc5;
 }

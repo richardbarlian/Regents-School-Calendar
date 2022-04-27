@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { daysAndSubjects, day } from "../constants";
+import { daysAndSubjects } from "../constants";
 
-function Subjects() {
+function Subjects({ date }) {
   const [subjects, setSubjects] = useState([]);
 
   useEffect(() => {
-    setSubjects(daysAndSubjects[day]);
-  }, []);
+    setSubjects(daysAndSubjects[date]);
+  }, [date]);
 
   return (
     <div>

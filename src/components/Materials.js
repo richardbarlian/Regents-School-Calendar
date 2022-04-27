@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { daysAndSubjects, subjectsAndMaterials, day } from "../constants";
+import { daysAndSubjects, subjectsAndMaterials } from "../constants";
 
-function Materials() {
+function Materials({ date }) {
   const [subjects, setSubjects] = useState([]);
 
   useEffect(() => {
-    setSubjects(daysAndSubjects[day]);
-  }, []);
+    setSubjects(daysAndSubjects[date]);
+  }, [date]);
 
   const materials = [];
 
