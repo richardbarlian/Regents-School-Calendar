@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Regents-School-Calender/static/css/main.e02a61f6.css",
-    "main.js": "/Regents-School-Calender/static/js/main.5790040e.js",
-    "index.html": "/Regents-School-Calender/index.html",
-    "main.e02a61f6.css.map": "/Regents-School-Calender/static/css/main.e02a61f6.css.map",
-    "main.5790040e.js.map": "/Regents-School-Calender/static/js/main.5790040e.js.map"
+    "main.css": "/Regents-School-Calendar/static/css/main.e02a61f6.css",
+    "main.js": "/Regents-School-Calendar/static/js/main.5790040e.js",
+    "index.html": "/Regents-School-Calendar/index.html",
+    "main.e02a61f6.css.map": "/Regents-School-Calendar/static/css/main.e02a61f6.css.map",
+    "main.5790040e.js.map": "/Regents-School-Calendar/static/js/main.5790040e.js.map"
   },
   "entrypoints": [
     "static/css/main.e02a61f6.css",
