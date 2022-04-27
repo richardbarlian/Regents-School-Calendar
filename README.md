@@ -1,2 +1,2 @@
 # Regents School Calender
-### This was made by Richard for my friends in Grade 6 of Regents School
+### This was made by Richard for my friends in class 6C of Regents School
