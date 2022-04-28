@@ -1,11 +1,11 @@
+import { useState } from "react";
 import Subjects from "./components/Subjects";
 import Materials from "./components/Materials";
 import Date from "./components/Date";
 import Quote from "./components/Quote";
-import "./App.css";
 import Selector from "./components/Selector";
-import { useState } from "react";
 import { day } from "./constants";
+import "./App.css";
 
 function App() {
   const [date, setDate] = useState(day);
