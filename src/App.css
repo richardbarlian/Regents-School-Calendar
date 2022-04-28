@@ -79,8 +79,10 @@ h1 {
 }
 
 .selector button {
-  border-radius: 0.2em;
-  margin-left: 4px;
+  border-radius: 0.5em;
+  margin-left: 4px; 
   transform: translateY(1px);
   background-color: #90afc5;
+  border-color: black;
+  border-width: 0.2em;
 }
