@@ -13,7 +13,7 @@ function Quote() {
         setQuote(advice);
       })
       .catch((error) => {
-        console.log(error);
+        console.warn(error);
       });
   }, []);
 
