@@ -17,8 +17,8 @@ function App() {
       <Selector setDate={setDate} />
       <Quote />
       <div className="content">
-        <Subjects date={date}/>
-        <Materials date={date}/>
+        <Subjects date={date} />
+        <Materials date={date} />
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ function Subjects({ date }) {
   }, [date]);
 
   return (
-    <div>
+    <div className="subjects">
       <h2>Subjects</h2>
       <ul>
         {subjects ? (

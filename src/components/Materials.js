@@ -21,7 +21,7 @@ function Materials({ date }) {
   }
 
   return (
-    <div>
+    <div className="materials">
       <h2>Materials</h2>
       <ul>
         {subjects ? (

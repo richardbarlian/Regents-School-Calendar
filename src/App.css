@@ -11,7 +11,8 @@ h1 {
   flex-direction: row;
 }
 
-.content div {
+.materials,
+.subjects {
   flex-grow: 1;
   text-align: center;
   list-style-type: none;
@@ -28,19 +29,31 @@ h1 {
   color: #3e363f;
 }
 
-.content div:hover {
+.materials:hover,
+.subjects:hover {
   transform: scale(1.02);
 }
 
-.content div h2 {
+.subjects h2 {
   margin: 0;
-  font-size: 2em;
+  font-size: clamp(1.4rem, 3vh, 2.5rem);
 }
 
-.content div ul {
+.materials h2 {
+  margin: 0;
+  font-size: clamp(1.3rem, 3vh, 2.5rem);
+}
+
+.subjects ul {
   list-style-type: none;
   padding: 0;
-  font-size: 1.3em;
+  font-size: clamp(1rem, 2vh, 1.3rem);
+}
+
+.materials ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: clamp(0.7rem, 2vh, 1.3rem);
 }
 
 .date,
@@ -71,6 +84,7 @@ h1 {
 .quote {
   margin-top: 0;
   margin-bottom: 20px;
+  font-size: clamp(0.9rem, 2vh, 2rem);
 }
 
 .no_subjects {
@@ -80,7 +94,7 @@ h1 {
 
 .selector button {
   border-radius: 0.5em;
-  margin-left: 4px; 
+  margin-left: 4px;
   transform: translateY(1px);
   background-color: #90afc5;
   border-color: black;
